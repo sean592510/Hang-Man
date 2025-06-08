@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#word-display {
+    font-size: 2em;
+    letter-spacing: 5px;
+    margin: 20px 0;
+}
+
+#hangman {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+#message {
+    color: red;
+    margin: 10px 0;
+}
+
+#guessed-letters {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+#attempts {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.letter-btn {
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #ddd;
+    border: none;
+    border-radius: 5px;
+}
+
+.letter-btn:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
